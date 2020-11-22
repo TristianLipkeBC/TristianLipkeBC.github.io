@@ -64,11 +64,10 @@
             padding: 10px;
         }
 
-        source.center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50px;
+        .audio-container {
+             display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
     
@@ -77,8 +76,8 @@
     <h1 class="center large">Bowser's Dance Party!!!</h1> 
     <h2 class="center small">(put on some music and vibe)</h2> 
     <audio controls autoplay>
-        <source class="center" src="good_enough.mp3" type="audio/ogg">
-        <source  class="center"src="good_enough.mp3" type="audio/mpeg">
+        <source class='audio-container' src="good_enough.mp3" type="audio/ogg">
+        <source  class='audio-container' src="good_enough.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
 
