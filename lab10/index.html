@@ -13,8 +13,17 @@
             font-size: 300%;
         }
 
+        h2.center {
+            text-align: center;
+            color: red;
+        }
+
+        h2.small {
+            font-size: 100%;
+        }
+
         body {
-            background-color: blue;
+            background-color: orange;
         }
 
         img {
@@ -30,16 +39,25 @@
             width: 100px;
             padding: 10px;
         }
+
+        img.left {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100px;
+            padding: 10px;
+        }
     </style>
     
   </head>
   <body>
     <h1 class="center large">Bowser's Dance Party!!!</h1> 
-
+    <h2 class="center small">(put on some music and vibe)</h2> 
     
     <div>
         <img src="bowser_dancing.gif" alt="Bowser the party animal" style="width:40%">
         <img class="right" src="discoball.gif" alt="Text">
+        <img class="left" src="discoball.gif" alt="Text">
     </div>
   </body>
 </html>
